@@ -67,3 +67,38 @@ footer{
   background-color: #aaa;
 }
 
+/*メディアクエリここから*/
+
+@media screen and (max-width: 768px) {
+
+  main{
+    width: 100%;
+    display: block;
+  }
+
+  .step-box{
+    width: 90%;
+    margin: auto;
+  }
+
+  .step-box:nth-child(even) {
+    margin: 20px auto
+  }
+
+  .step-box:last-child{
+    margin: auto;
+  }
+
+  .step-img1{
+    height: 150px;
+  }
+
+  .step-img2{
+    height: 150px;
+  }
+
+  .step-img3{
+    height: 150px;
+  }
+
+}
